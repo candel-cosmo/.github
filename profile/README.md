@@ -14,8 +14,16 @@ holds the shared data and results:
 ```
 candel-cosmo/
   CANDEL/  candel-pv/  candel-ch0/  ...   git checkouts
-  data/  results/                         shared by every probe
+  data/                                   inputs: catalogues, fields, field caches
+  results/                                run outputs
+  plots/  remote_logs/                    figures, logs pulled from clusters
 ```
+
+Keep `data/`, `results/`, `plots/` and `remote_logs/` in this folder, outside
+every checkout. Where they belong elsewhere, for example on a cluster's scratch
+or data filesystem to stay within the home quota, set `root_data` and
+`root_results` in `CANDEL/local_config.toml` to the folders holding `data/`
+and `results/`, and symlink `plots/` and `remote_logs/` into `candel-cosmo/`.
 
 Full steps, including the Python environment and `local_config.toml`, are in
 the **[installation instructions](https://github.com/candel-cosmo/CANDEL#installation)**
