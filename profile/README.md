@@ -32,5 +32,15 @@ CANDEL is a core library plus one repository per probe.
 See the [CANDEL README](https://github.com/candel-cosmo/CANDEL#installation)
 for installation.
 
+## Papers using CANDEL
+
+- Stiskalek et al. (2025), *The Velocity Field Olympics* — [arXiv:2502.00121](https://arxiv.org/abs/2502.00121)
+- Stiskalek et al. (2025), *A 1.8 per cent measurement of $H_0$ from Cepheids alone* — [arXiv:2509.09665](https://arxiv.org/abs/2509.09665)
+- Stiskalek et al. (2025), *No evidence for $H_0$ anisotropy from Tully--Fisher or supernova distances* — [arXiv:2509.14997](https://arxiv.org/abs/2509.14997)
+- Stiskalek (2025), *$S_8$ from Tully--Fisher, Fundamental Plane and supernova distances* — [arXiv:2509.20235](https://arxiv.org/abs/2509.20235)
+- Stiskalek et al. (2026), *Forward-modelling Milky Way Cepheids* — [arXiv:2603.09880](https://arxiv.org/abs/2603.09880)
+- Stiskalek & Desmond (2026), *A reanalysis of the megamaser Hubble constant* — [arXiv:2609.17684](https://arxiv.org/abs/2609.17684)
+- Stiskalek et al. (2026), *$H_0$ from the Tip of the Red Giant Branch and geometric anchors alone* — [arXiv:2609.29996](https://arxiv.org/abs/2609.29996)
+
 - Documentation: [candel.readthedocs.io](https://candel.readthedocs.io)
 - Contact: Richard Stiskalek (University of Oxford)
